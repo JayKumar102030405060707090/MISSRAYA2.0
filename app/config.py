@@ -13,19 +13,19 @@ class Config:
     """
     
     # Basic Bot Configuration
-    BOT_USERNAME = os.getenv('BOT_USERNAME', 'YourBotUsername')
-    BOT_TOKEN = os.getenv('BOT_TOKEN', '')  # Your Telegram Bot Token
+    BOT_USERNAME = os.getenv('TeraboxDonloader_bot', 'TeraboxDonloader_bot')
+    BOT_TOKEN = os.getenv('7927582911:AAHbz1DKOm08ef0YTpaKPdhAEpWjvZu8XbU', '')  # Your Telegram Bot Token
     
     # API Configuration
-    API_ID = os.getenv('API_ID', '')  # Your Telegram API ID
-    API_HASH = os.getenv('API_HASH', '')  # Your Telegram API Hash
+    API_ID = os.getenv('20882859', '')  # Your Telegram API ID
+    API_HASH = os.getenv('7c8f0bd8aa7be4af2a02492f9a807778', '')  # Your Telegram API Hash
     
     # Channel and Admin Configuration
-    CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME', 'YourChannelUsername')
-    CHANNEL_ID = int(os.getenv('CHANNEL_ID', 0))  # Channel ID for force subscribe
-    CHANNEL_URL = f"https://t.me/{CHANNEL_USERNAME}"
-    ADMIN_IDS = [int(id_) for id_ in os.getenv('ADMIN_IDS', '').split(',') if id_]
-    OWNER_ID = int(os.getenv('OWNER_ID', 0))  # Owner's Telegram ID
+    CHANNEL_USERNAME = os.getenv('KomalMusicUpdate', 'KomalMusicUpdate')
+    CHANNEL_ID = int(os.getenv('-1002387668895', 0))  # Channel ID for force subscribe
+    CHANNEL_URL = f"https://t.me/KomalMusicUpdate"
+    ADMIN_IDS = [int(id_) for id_ in os.getenv('7168729089', '').split(',') if id_]
+    OWNER_ID = int(os.getenv('7168729089', 0))  # Owner's Telegram ID
 
     # Gemini Configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
